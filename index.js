@@ -46,7 +46,7 @@ app.post('/api/echo', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => { 
   console.log(`Server is running on port ${PORT}`);
   console.log(`Try GET: http://localhost:${PORT}/api/data`);
   console.log(`Try POST to http://localhost:${PORT}/api/echo with a JSON body like: {"name": "Test User", "message": "Hello API"}`);
