@@ -1,0 +1,25 @@
+{
+  "name": "gbase_renderapi_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tina0529/GBase_RenderAPI_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tina0529/GBase_RenderAPI_Test/issues"
+  },
+  "homepage": "https://github.com/Tina0529/GBase_RenderAPI_Test#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
